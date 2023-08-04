@@ -96,8 +96,8 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
-    "com.vrchat.demo-template": {
-      "version": "file:com.vrchat.demo-template",
+    "gogoloco": {
+      "version": "file:gogoloco",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
