@@ -4,7 +4,8 @@ Version 1.7.91
 
 ## Listing
 
-Click [here](https://Franada.github.io/GoLoco/index.json) for the listing.
+Click [here](https://alexandre-belhomme.github.io/goloco) for the listing.
+*for now, links to personal listing, to change*
 
 ## Versioning
 
