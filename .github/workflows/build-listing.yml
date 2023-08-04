@@ -1,7 +1,7 @@
 name: Build Repo Listing
 
 env:
-  CurrentPackageName: com.vrchat.demo-template
+  CurrentPackageName: gogoloco
   listPublishDirectory: Website
   pathToCi: ci
   
