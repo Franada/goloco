@@ -1,0 +1,17 @@
+{
+  "name": "gogoloco",
+  "displayName": "GoGoLoco",
+  "version": "1.8.1",
+  "description": "Locomotion system & more",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.2.2"
+  },
+  "author": {
+    "name": "Franada",
+    "email": "franada@example.com"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "G:\\Projets Unity\\VRChat\\goloco\\Packages\\gogoloco"
+}
