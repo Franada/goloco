@@ -62,10 +62,18 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Voice
     m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 35a584c91926cb34b96be35ff61c7ea5, type: 2}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
   m_BlendParameter: Go/StandIdle
   m_BlendParameterY: VelocityZ
   m_MinThreshold: 0
-  m_MaxThreshold: 0
+  m_MaxThreshold: 1
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0

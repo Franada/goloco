@@ -94,10 +94,42 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Voice
     m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 2b7904a35e567224a974d5f1f24d3370, type: 2}
+    m_Threshold: 5
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 0b8ae57adc1127341b072da2bc2cba8e, type: 2}
+    m_Threshold: 6
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: aa8af09f57dcb794d97be70129573c33, type: 2}
+    m_Threshold: 7
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: c8b8ac8c2a794a6469da2738df460bd4, type: 2}
+    m_Threshold: 8
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
   m_BlendParameter: Go/ProneIdle
   m_BlendParameterY: VelocityZ
   m_MinThreshold: 0
-  m_MaxThreshold: 4
+  m_MaxThreshold: 8
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0

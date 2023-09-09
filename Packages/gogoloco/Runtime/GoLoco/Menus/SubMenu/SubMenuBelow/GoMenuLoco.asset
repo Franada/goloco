@@ -48,7 +48,7 @@ MonoBehaviour:
     type: 102
     parameter:
       name: VRCEmote
-    value: 65
+    value: 101
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -68,7 +68,7 @@ MonoBehaviour:
     type: 203
     parameter:
       name: VRCEmote
-    value: 200
+    value: 125
     style: 0
     subMenu: {fileID: 0}
     subParameters:

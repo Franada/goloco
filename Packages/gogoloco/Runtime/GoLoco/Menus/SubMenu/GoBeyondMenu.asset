@@ -30,7 +30,7 @@ MonoBehaviour:
       name: 
     value: 1
     style: 0
-    subMenu: {fileID: 11400000, guid: e883eb8a7272a7746b60359d493b587c, type: 2}
+    subMenu: {fileID: 11400000, guid: 051d9c3c8f8b98e4c8256109ee67fe09, type: 2}
     subParameters: []
     labels: []
   - name: 
@@ -68,7 +68,7 @@ MonoBehaviour:
     type: 203
     parameter:
       name: VRCEmote
-    value: 200
+    value: 125
     style: 0
     subMenu: {fileID: 0}
     subParameters:

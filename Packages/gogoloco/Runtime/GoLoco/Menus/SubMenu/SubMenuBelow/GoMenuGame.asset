@@ -13,22 +13,12 @@ MonoBehaviour:
   m_Name: GoMenuGame
   m_EditorClassIdentifier: 
   controls:
-  - name: <b><size=26><line-height=100%><voffset=5em>Air Time
-    icon: {fileID: 2800000, guid: cb151f098655e0a469cbbc59f1fa429e, type: 3}
-    type: 101
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: 
     icon: {fileID: 2800000, guid: b35213a6ce5cb014bb369811479a8738, type: 3}
     type: 102
     parameter:
       name: VRCEmote
-    value: 189
+    value: 114
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -38,7 +28,17 @@ MonoBehaviour:
     type: 102
     parameter:
       name: VRCEmote
-    value: 188
+    value: 113
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: 
+    icon: {fileID: 2800000, guid: 316dd9230c4d4264888f8d12080d2206, type: 3}
+    type: 102
+    parameter:
+      name: VRCEmote
+    value: 112
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -64,16 +64,16 @@ MonoBehaviour:
     subParameters: []
     labels: []
   - name: 
-    icon: {fileID: 2800000, guid: 316dd9230c4d4264888f8d12080d2206, type: 3}
+    icon: {fileID: 2800000, guid: 52c87c6d062c88447985cc3ea9b95207, type: 3}
     type: 102
     parameter:
-      name: VRCEmote
-    value: 187
+      name: Go/Swimming
+    value: 1
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
     labels: []
-  - name: <b><size=26><line-height=100%><voffset=5em>Super VR Ball
+  - name: 
     icon: {fileID: 2800000, guid: cb151f098655e0a469cbbc59f1fa429e, type: 3}
     type: 101
     parameter:

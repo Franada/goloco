@@ -248,10 +248,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1665193221489318820}
-  - component: {fileID: 4437055604174121926}
   - component: {fileID: 1665193221489318819}
   m_Layer: 10
-  m_Name: Collider
+  m_Name: Rotation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -267,30 +266,11 @@ Transform:
   m_LocalRotation: {x: 0.00000009362675, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8197451480388203196}
   m_Father: {fileID: 1465019330098873319}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -30.107002, y: 0, z: 0}
---- !u!114 &4437055604174121926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1665193221489318821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 120943834, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerMobility: 1
-  canUseStationFromStation: 0
-  animatorController: {fileID: 0}
-  disableStationExit: 0
-  seated: 1
-  stationEnterPlayerLocation: {fileID: 0}
-  stationExitPlayerLocation: {fileID: 0}
-  controlsObject: {fileID: 0}
 --- !u!1818360609 &1665193221489318819
 RotationConstraint:
   m_ObjectHideFlags: 0
@@ -487,6 +467,57 @@ Transform:
   m_Father: {fileID: 3333043043722052666}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5852272242127375462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8197451480388203196}
+  - component: {fileID: 7656387199049842693}
+  m_Layer: 10
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8197451480388203196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852272242127375462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1665193221489318820}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -30.107002, y: 0, z: 0}
+--- !u!114 &7656387199049842693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5852272242127375462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 120943834, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerMobility: 1
+  canUseStationFromStation: 0
+  animatorController: {fileID: 0}
+  disableStationExit: 0
+  seated: 1
+  stationEnterPlayerLocation: {fileID: 0}
+  stationExitPlayerLocation: {fileID: 0}
+  controlsObject: {fileID: 0}
 --- !u!1 &6668366747093736390
 GameObject:
   m_ObjectHideFlags: 0

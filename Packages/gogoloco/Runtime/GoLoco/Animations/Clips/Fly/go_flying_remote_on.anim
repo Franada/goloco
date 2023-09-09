@@ -21,31 +21,6 @@ AnimationClip:
         time: 0
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: Infinity, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.016666668
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: Infinity, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Beyond Prefab/Fly
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
@@ -63,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -122,7 +97,7 @@ AnimationClip:
         time: 0
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: Infinity}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -130,32 +105,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.016666668
         value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: -0}
-        outSlope: {x: 0, y: 0, z: Infinity}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Beyond Prefab/Fly/Collider
-  m_ScaleCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.016666668
-        value: {x: 1, y: 1, z: 1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -165,32 +114,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Beyond Prefab/Fly
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.016666668
-        value: {x: 1, y: 1, z: 1}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation
+  m_ScaleCurves: []
   m_FloatCurves:
   - curve:
       serializedVersion: 2
@@ -244,9 +169,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_IsTrigger
-    path: Beyond Prefab/Fly/Collider
-    classID: 65
+    attribute: m_Enabled
+    path: Beyond Prefab/Fly/Rotation
+    classID: 1818360609
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -273,7 +198,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -301,7 +226,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Center.y
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -329,7 +254,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Center.z
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -357,7 +282,35 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
+    classID: 65
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsTrigger
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -385,7 +338,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.x
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -393,7 +346,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.4
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -402,7 +355,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.4
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -413,7 +366,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.y
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -441,36 +394,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.z
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Beyond Prefab/Fly/Collider
-    classID: 1818360609
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
@@ -481,20 +406,6 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3046683032
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2878754221
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
       path: 3518600173
       attribute: 2086281974
       script: {fileID: 0}
@@ -502,24 +413,24 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
-      attribute: 2693561734
-      script: {fileID: 0}
-      typeID: 65
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3046683032
-      attribute: 3305885265
-      script: {fileID: 0}
-      typeID: 65
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3046683032
+      path: 1457089726
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1818360609
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 239510195
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 65
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 239510195
+      attribute: 2693561734
+      script: {fileID: 0}
+      typeID: 65
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
@@ -537,63 +448,56 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
+      path: 1457089726
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1457089726
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2878754221
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3046683032
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3046683032
+      path: 1457089726
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
+      path: 239510195
       attribute: 1394318531
       script: {fileID: 0}
       typeID: 65
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
+      path: 239510195
       attribute: 3390229881
       script: {fileID: 0}
       typeID: 65
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
+      path: 239510195
       attribute: 4197328169
       script: {fileID: 0}
       typeID: 65
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
+      path: 239510195
       attribute: 2368279999
       script: {fileID: 0}
       typeID: 65
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3046683032
+      path: 239510195
       attribute: 337658885
       script: {fileID: 0}
       typeID: 65
@@ -739,34 +643,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_IsTrigger
-    path: Beyond Prefab/Fly/Collider
-    classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -852,8 +728,8 @@ AnimationClip:
         time: 0
         value: 0
         inSlope: 0
-        outSlope: Infinity
-        tangentMode: 97
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -861,8 +737,92 @@ AnimationClip:
         time: 0.016666668
         value: 0
         inSlope: 0
-        outSlope: Infinity
-        tangentMode: 97
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Beyond Prefab/Fly/Rotation
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Beyond Prefab/Fly/Rotation
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Beyond Prefab/Fly/Rotation
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -870,7 +830,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Beyond Prefab/Fly
+    path: Beyond Prefab/Fly/Rotation
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -898,7 +858,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Beyond Prefab/Fly
+    path: Beyond Prefab/Fly/Rotation
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -926,91 +886,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Beyond Prefab/Fly
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.x
-    path: Beyond Prefab/Fly
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.y
-    path: Beyond Prefab/Fly
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.z
-    path: Beyond Prefab/Fly
+    path: Beyond Prefab/Fly/Rotation
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1019,83 +895,27 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
+        inSlope: Infinity
         outSlope: Infinity
-        tangentMode: 101
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
         value: 0
-        inSlope: -0
+        inSlope: Infinity
         outSlope: Infinity
-        tangentMode: 101
+        tangentMode: 103
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
+    attribute: m_Enabled
+    path: Beyond Prefab/Fly/Rotation
+    classID: 1818360609
     script: {fileID: 0}
   - curve:
       serializedVersion: 2
@@ -1122,7 +942,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1150,7 +970,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Center.y
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -1178,7 +998,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Center.z
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -1206,7 +1026,35 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
+    classID: 65
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsTrigger
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -1234,7 +1082,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.x
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -1242,7 +1090,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.4
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1251,7 +1099,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.4
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1262,7 +1110,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.y
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -1290,204 +1138,8 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Size.z
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation/Collider
     classID: 65
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Enabled
-    path: Beyond Prefab/Fly/Collider
-    classID: 1818360609
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.x
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.y
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.016666668
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalScale.z
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
@@ -1496,8 +1148,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Beyond Prefab/Fly
+    attribute: m_LocalEulerAngles.x
+    path: Beyond Prefab/Fly/Rotation
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1507,37 +1159,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Beyond Prefab/Fly
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Beyond Prefab/Fly
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Beyond Prefab/Fly/Collider
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1547,7 +1169,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Beyond Prefab/Fly/Collider
+    path: Beyond Prefab/Fly/Rotation
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

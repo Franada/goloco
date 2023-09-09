@@ -149,10 +149,50 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: Voice
     m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 5d1a35f51aedb4f49b78d76c52a5f6a4, type: 2}
+    m_Threshold: 8
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: ba57ebb19a6ea8a48a075890873af640, type: 2}
+    m_Threshold: 9
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: fa6fd93aa97aa5d4299920b7587cad54, type: 2}
+    m_Threshold: 10
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: e9441a6e6ac1dc54fb7090ca153b059d, type: 2}
+    m_Threshold: 11
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: dc5b3d8bd8cfb6a43aea069ab5d01c2b, type: 2}
+    m_Threshold: 12
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Voice
+    m_Mirror: 0
   m_BlendParameter: Go/CrouchIdle
   m_BlendParameterY: VelocityZ
   m_MinThreshold: 0
-  m_MaxThreshold: 7
+  m_MaxThreshold: 12
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0

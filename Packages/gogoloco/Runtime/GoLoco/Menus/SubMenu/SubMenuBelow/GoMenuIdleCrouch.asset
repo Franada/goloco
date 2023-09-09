@@ -14,6 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls:
   - name: 
+    icon: {fileID: 2800000, guid: 2f791cb5c275ced4997a0a6afe055826, type: 3}
+    type: 103
+    parameter:
+      name: VRCEmote
+    value: 119
+    style: 0
+    subMenu: {fileID: 11400000, guid: c85f8b4362328444488e65f22014c3c1, type: 2}
+    subParameters: []
+    labels: []
+  - name: 
     icon: {fileID: 2800000, guid: c1e44a1586450ff4cba85f6cba33c92e, type: 3}
     type: 102
     parameter:
@@ -79,16 +89,6 @@ MonoBehaviour:
     parameter:
       name: Go/CrouchIdle
     value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: 
-    icon: {fileID: 2800000, guid: 278a768cc074ba645b2b17fdf2b1a33b, type: 3}
-    type: 102
-    parameter:
-      name: Go/CrouchIdle
-    value: 0
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

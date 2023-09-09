@@ -136,44 +136,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Jaw Close
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Jaw Left-Right
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0.39181224
         inSlope: 0
         outSlope: 0
@@ -223,44 +185,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: Left Arm Twist In-Out
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Left Eye Down-Up
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Left Eye In-Out
     path: 
     classID: 95
     script: {fileID: 0}
@@ -1021,44 +945,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: Right Arm Twist In-Out
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Right Eye Down-Up
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Right Eye In-Out
     path: 
     classID: 95
     script: {fileID: 0}
@@ -2075,20 +1961,6 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
-      attribute: 61
-      script: {fileID: 0}
-      typeID: 95
-      customType: 8
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 62
-      script: {fileID: 0}
-      typeID: 95
-      customType: 8
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
       attribute: 81
       script: {fileID: 0}
       typeID: 95
@@ -2104,20 +1976,6 @@ AnimationClip:
     - serializedVersion: 2
       path: 0
       attribute: 83
-      script: {fileID: 0}
-      typeID: 95
-      customType: 8
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 57
-      script: {fileID: 0}
-      typeID: 95
-      customType: 8
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 58
       script: {fileID: 0}
       typeID: 95
       customType: 8
@@ -2398,20 +2256,6 @@ AnimationClip:
     - serializedVersion: 2
       path: 0
       attribute: 92
-      script: {fileID: 0}
-      typeID: 95
-      customType: 8
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 59
-      script: {fileID: 0}
-      typeID: 95
-      customType: 8
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 0
-      attribute: 60
       script: {fileID: 0}
       typeID: 95
       customType: 8
@@ -2872,44 +2716,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Jaw Close
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Jaw Left-Right
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0.39181224
         inSlope: 0
         outSlope: 0
@@ -2959,44 +2765,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: Left Arm Twist In-Out
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Left Eye Down-Up
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Left Eye In-Out
     path: 
     classID: 95
     script: {fileID: 0}
@@ -3757,44 +3525,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: Right Arm Twist In-Out
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Right Eye Down-Up
-    path: 
-    classID: 95
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: Right Eye In-Out
     path: 
     classID: 95
     script: {fileID: 0}

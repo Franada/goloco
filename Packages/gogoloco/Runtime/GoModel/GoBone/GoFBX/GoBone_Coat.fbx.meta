@@ -488,7 +488,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Hips
       parentName: Armature
-      position: {x: 1.909646e-16, y: 0.81780773, z: 0.042220443}
+      position: {x: 1.909646e-16, y: 0.8178077, z: 0.042220443}
       rotation: {x: -0.000001864047, y: -2.6923596e-24, z: -1.11021925e-16, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Left leg
@@ -584,7 +584,7 @@ ModelImporter:
     - name: LittleFinger1_L
       parentName: Left wrist
       position: {x: -0.0035637994, y: 0.071685486, z: -0.018822333}
-      rotation: {x: 0.0042312657, y: 0.004217174, z: 0.023871576, w: 0.99969727}
+      rotation: {x: 0.004231265, y: 0.004217174, z: 0.023871569, w: 0.99969727}
       scale: {x: 0.99999976, y: 1, z: 1}
     - name: LittleFinger2_L
       parentName: LittleFinger1_L
@@ -604,7 +604,7 @@ ModelImporter:
     - name: MiddleFinger2_L
       parentName: MiddleFinger1_L
       position: {x: -0.00000036035135, y: 0.030587018, z: -0.000000068655936}
-      rotation: {x: 0.0013599908, y: -0.0014100063, z: -0.019716796, w: 0.99980366}
+      rotation: {x: 0.001359991, y: -0.0014100063, z: -0.0197168, w: 0.99980366}
       scale: {x: 1, y: 1.0000005, z: 1.0000001}
     - name: MiddleFinger3_L
       parentName: MiddleFinger2_L
@@ -704,7 +704,7 @@ ModelImporter:
     - name: LittleFinger1_R
       parentName: Right wrist
       position: {x: 0.0035700526, y: 0.07168628, z: -0.018822445}
-      rotation: {x: 0.00422166, y: -0.004216739, z: -0.023880452, w: 0.9996971}
+      rotation: {x: 0.004221659, y: -0.004216739, z: -0.023880444, w: 0.9996971}
       scale: {x: 0.99999994, y: 0.9999996, z: 0.9999995}
     - name: LittleFinger2_R
       parentName: LittleFinger1_R

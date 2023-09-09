@@ -1,11 +1,25 @@
-Version 1.7.91
+Version 1.8.1
 
-https://www.patreon.com/franada
+Add VRCFury to your creator companion to use the auto instal prefab :
 
-Documentation : https://www.craft.do/s/CxY701Ne9Ng5Ev
+	https://vrcfury.com/
 
-https://twitter.com/franadaVRC
+Social Link :
 
-https://discord.gg/gogo-loco-911793727633260544
+	https://www.patreon.com/franada
 
-VRC Group : https://vrc.group/GGL.8930
+	https://twitter.com/franadaVRC
+
+Documentation :
+
+	https://www.craft.do/s/CxY701Ne9Ng5Ev
+
+
+Dicord Group :
+
+	https://discord.gg/gogo-loco-911793727633260544
+
+
+VRC Group :
+
+	https://vrc.group/GGL.8930

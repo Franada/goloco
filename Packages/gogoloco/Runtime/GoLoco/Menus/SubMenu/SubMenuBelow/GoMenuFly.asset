@@ -13,22 +13,12 @@ MonoBehaviour:
   m_Name: GoMenuFly
   m_EditorClassIdentifier: 
   controls:
-  - name: <b><size=26><line-height=100%><voffset=5em>Increase Radial</b>
-    icon: {fileID: 2800000, guid: cb151f098655e0a469cbbc59f1fa429e, type: 3}
-    type: 101
-    parameter:
-      name: 
-    value: 1
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
   - name: 
-    icon: {fileID: 2800000, guid: 6fb1835f041e0cd47a65489c94d5e18d, type: 3}
+    icon: {fileID: 2800000, guid: b2e4c489dd9685d4896390e0e792192d, type: 3}
     type: 102
     parameter:
       name: VRCEmote
-    value: 198
+    value: 123
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -38,7 +28,7 @@ MonoBehaviour:
     type: 201
     parameter:
       name: VRCEmote
-    value: 196
+    value: 121
     style: 0
     subMenu: {fileID: 0}
     subParameters:
@@ -53,13 +43,12 @@ MonoBehaviour:
       icon: {fileID: 2800000, guid: cb37e2047ad75814aae3f702ccf38389, type: 3}
     - name: 
       icon: {fileID: 2800000, guid: cb151f098655e0a469cbbc59f1fa429e, type: 3}
-  - name: <b><size=23><line-height=100%><voffset=24.5em>Off The Ground To Increase
-      Speed
+  - name: <b><size=23><line-height=100%><voffset=24.5em>Fly Booster
     icon: {fileID: 2800000, guid: 9a813651412be254292901e6a7337a09, type: 3}
     type: 203
     parameter:
       name: VRCEmote
-    value: 199
+    value: 122
     style: 0
     subMenu: {fileID: 0}
     subParameters:
@@ -70,7 +59,7 @@ MonoBehaviour:
     type: 102
     parameter:
       name: VRCEmote
-    value: 195
+    value: 120
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
@@ -80,17 +69,7 @@ MonoBehaviour:
     type: 102
     parameter:
       name: VRCEmote
-    value: 197
-    style: 0
-    subMenu: {fileID: 0}
-    subParameters: []
-    labels: []
-  - name: <b><size=26><line-height=100%><voffset=5em>Press Right Fist Trigger</b>
-    icon: {fileID: 2800000, guid: cb151f098655e0a469cbbc59f1fa429e, type: 3}
-    type: 101
-    parameter:
-      name: 
-    value: 1
+    value: 124
     style: 0
     subMenu: {fileID: 0}
     subParameters: []
