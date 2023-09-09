@@ -1,6 +1,6 @@
 # GoGoLoco
 
-Version 1.7.91
+Version 1.8.1
 
 ## Listing
 
