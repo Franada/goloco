@@ -18,7 +18,37 @@ MonoBehaviour:
     type: 102
     parameter:
       name: Go/StandIdle
+    value: 3
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Widest
+    icon: {fileID: 2800000, guid: 278a768cc074ba645b2b17fdf2b1a33b, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 2
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Wide
+    icon: {fileID: 2800000, guid: 278a768cc074ba645b2b17fdf2b1a33b, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
     value: 1
+    style: 0
+    subMenu: {fileID: 0}
+    subParameters: []
+    labels: []
+  - name: <b>Default
+    icon: {fileID: 2800000, guid: 278a768cc074ba645b2b17fdf2b1a33b, type: 3}
+    type: 102
+    parameter:
+      name: Go/StandIdle
+    value: 0
     style: 0
     subMenu: {fileID: 0}
     subParameters: []

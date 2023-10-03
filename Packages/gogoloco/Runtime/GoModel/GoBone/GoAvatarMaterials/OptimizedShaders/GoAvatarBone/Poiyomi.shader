@@ -9,6 +9,27 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi 8.0/Poiyomi Toon/d3695d7b3cdb1054fa68d828
 		[HideInInspector] footer_patreon ("{texture:{name:icon-patreon,height:16},action:{type:URL,data:https://www.patreon.com/poiyomi},hover:PATREON}", Float) = 0
 		[HideInInspector] footer_discord ("{texture:{name:icon-discord,height:16},action:{type:URL,data:https://discord.gg/Ays52PY},hover:DISCORD}", Float) = 0
 		[HideInInspector] footer_github ("{texture:{name:icon-github,height:16},action:{type:URL,data:https://github.com/poiyomi/PoiyomiToonShader},hover:GITHUB}", Float) = 0
+		[Header(POIYOMI SHADER UI FAILED TO LOAD)]
+		[Header(.    This is caused by scripts failing to compile. It can be fixed.)]
+		[Header(.          The inspector will look broken and will not work properly until fixed.)]
+		[Header(.    Please check your console for script errors.)]
+		[Header(.          You can filter by errors in the console window.)]
+		[Header(.          Often the topmost error points to the erroring script.)]
+		[Space(30)][Header(Common Error Causes)]
+		[Header(.    Installing multiple Poiyomi Shader packages)]
+		[Header(.          Make sure to delete the Poiyomi shader folder before you update Poiyomi.)]
+		[Header(.          If a package came with Poiyomi this is bad practice and can cause issues.)]
+		[Header(.          Delete the package and import it without any Poiyomi components.)]
+		[Header(.    Bad VRCSDK installation (e.g. Both VCC and Standalone))]
+		[Header(.          Delete the VRCSDK Folder in Assets if you are using the VCC.)]
+		[Header(.          Avoid using third party SDKs. They can cause incompatibility.)]
+		[Header(.    Script Errors in other scripts)]
+		[Header(.          Outdated tools or prefabs can cause this.)]
+		[Header(.          Update things that are throwing errors or move them outside the project.)]
+		[Space(30)][Header(Visit Our Discord to Ask For Help)]
+		[Space(5)]_ShaderUIWarning0 (" → discord.gg/poiyomi ←    We can help you get it fixed!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         --{condition_showS:(0==1)}", Int) = -0
+		[Space(1400)][Header(POIYOMI SHADER UI FAILED TO LOAD)]
+		_ShaderUIWarning1 ("Please scroll up for more information!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     --{condition_showS:(0==1)}", Int) = -0
 		[HideInInspector] _ForgotToLockMaterial (";;YOU_FORGOT_TO_LOCK_THIS_MATERIAL;", Int) = 1
 		[ThryShaderOptimizerLockButton] _ShaderOptimizerEnabled ("", Int) = 1
 		[Helpbox(1)] _LockTooltip ("Animations don't work by default when locked in. Right click a property if you want to animate it. The shader will lock in automatically at upload time.", Int) = 0

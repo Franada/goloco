@@ -1097,7 +1097,7 @@ MonoBehaviour:
   - type: 0
     name: Go/Float
     source: 
-    value: 0.255
+    value: 0.25
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -4593,6 +4593,9 @@ AnimatorTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Seated
     m_EventTreshold: 0
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2587250462590499987}
   m_Solo: 0
@@ -5343,6 +5346,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 7
     m_ConditionEvent: VRCEmote
     m_EventTreshold: 227
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 234
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 239
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -678461782188574170}
   m_Solo: 0
@@ -17181,7 +17190,7 @@ MonoBehaviour:
   - type: 0
     name: Go/Float
     source: 
-    value: 0.25
+    value: 0.255
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -18183,6 +18192,23 @@ MonoBehaviour:
     destMax: 0
   localOnly: 0
   debugString: 
+--- !u!1109 &-1884802545034196006
+AnimatorTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 3
+    m_ConditionEvent: TrackingType
+    m_EventTreshold: 5
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 4532717680635533186}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 1
 --- !u!1109 &-1878212499309292149
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -18203,6 +18229,9 @@ AnimatorTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Seated
     m_EventTreshold: 0
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -9031031283952728811}
   m_Solo: 0
@@ -20430,7 +20459,7 @@ MonoBehaviour:
   - type: 0
     name: Go/Float
     source: 
-    value: 0.07
+    value: 0.05
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -23605,6 +23634,9 @@ AnimatorTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Seated
     m_EventTreshold: 0
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2587250462590499987}
   m_Solo: 0
@@ -24265,6 +24297,7 @@ AnimatorStateMachine:
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
+  - {fileID: -1884802545034196006}
   - {fileID: -5039193930081248634}
   - {fileID: 8830884264017569021}
   - {fileID: 2298310311251379604}
@@ -44340,6 +44373,9 @@ AnimatorTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Seated
     m_EventTreshold: 0
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -9031031283952728811}
   m_Solo: 0
