@@ -1,6 +1,6 @@
 # GoGoLoco
 
-Version 1.8.1
+Version 1.8.3
 
 ## Listing
 
@@ -11,22 +11,4 @@ Click [here](https://spokeek.github.io/goloco) for the listing.
 
 The VPM Package follows the main GoGoLoco Versioning.
 
-## Patreon
-
-<https://www.patreon.com/franada>
-
-## Documentation
-
-<https://www.craft.do/s/CxY701Ne9Ng5Ev>
-
-## Twitter
-
-<https://twitter.com/franadaVRC>
-
-## Discord
-
-<https://discord.gg/gogo-loco-911793727633260544>
-
-## VRChat Group
-
-<https://vrc.group/GGL.8930>
+linktr.ee/franada
