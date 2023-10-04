@@ -9,16 +9,22 @@ public class AddPrefabToSelected : EditorWindow
     private GameObject gogolocoAllVRCFuryPrefab;
     private GameObject gogolocoBeyondVRCFuryPrefab;
 
-    private string errorLabel;
+    private string errorLabel = "";
 
     private Texture2D headerImage;
 
+    /**
+    *  Load the GoGoLoco Prefab Window
+    */
     [MenuItem("Tools/GoGoLoco/Add Prefabs")]
     public static void ShowWindow()
     {
         GetWindow<AddPrefabToSelected>("GoGoLoco Prefabs");
     }
 
+    /**
+    *  Load the GoGoLoco ressources
+    */
     private void OnEnable()
     {
         headerImage = AssetDatabase.LoadAssetAtPath<Texture2D>("Packages/gogoloco/Runtime/GoLoco/Icons/icon_Go_Loco.png");
@@ -29,6 +35,9 @@ public class AddPrefabToSelected : EditorWindow
         avatarTarget = Selection.activeGameObject;
     }
 
+    /**
+    *  Flow of the GoGoLoco Prefab Window
+    */
     private void OnGUI()
     {
         // GoGoLoco Logo
@@ -53,12 +62,10 @@ public class AddPrefabToSelected : EditorWindow
             GUILayout.Label(errorLabel);
             GUI.color = Color.white;
         }
-        else
-        {
-            errorLabel = "";
-        }
 
+        // Disable buttons if wrong avatar selected
         GUI.enabled = errorLabel == "";
+        
         if (GUILayout.Button("Add GoGoLoco All (VRCFury) Prefab"))
         {
             GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoAllVRCFuryPrefab) as GameObject;
