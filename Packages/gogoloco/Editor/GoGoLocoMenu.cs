@@ -62,6 +62,10 @@ public class AddPrefabToSelected : EditorWindow
             GUILayout.Label(errorLabel);
             GUI.color = Color.white;
         }
+        else
+        {
+            errorLabel = "";
+        }
 
         // Disable buttons if wrong avatar selected
         GUI.enabled = errorLabel == "";
