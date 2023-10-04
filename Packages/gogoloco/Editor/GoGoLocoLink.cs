@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using UnityEngine;
 using UnityEditor;
 
@@ -14,3 +16,5 @@ class GoGoLocoLink : EditorWindow
         EditorGUIUtility.PingObject(asset);
     }
 }
+
+#endif

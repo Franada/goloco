@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+
+using UnityEngine;
 using UnityEditor;
 using VRC.SDK3.Avatars.Components;
 
-public class AddPrefabToSelected : EditorWindow
+public class GoGoLocoMenu : EditorWindow
 {
     private GameObject avatarTarget;
 
@@ -19,7 +21,7 @@ public class AddPrefabToSelected : EditorWindow
     [MenuItem("Tools/GoGoLoco/Add Prefabs")]
     public static void ShowWindow()
     {
-        GetWindow<AddPrefabToSelected>("GoGoLoco Prefabs");
+        GetWindow<GoGoLocoMenu>("GoGoLoco Prefabs");
     }
 
     /**
@@ -83,3 +85,5 @@ public class AddPrefabToSelected : EditorWindow
         GUI.enabled = true;
     }
 }
+
+#endif
