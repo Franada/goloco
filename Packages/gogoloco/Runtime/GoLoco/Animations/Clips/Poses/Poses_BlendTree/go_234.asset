@@ -55,7 +55,7 @@ BlendTree:
   m_Name: go_234
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 4b8ef6979ef0ef347ac27e34ed9506f9, type: 2}
+    m_Motion: {fileID: 7400000, guid: e429cd01c99021a409102e6cc8d686f9, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -63,7 +63,7 @@ BlendTree:
     m_DirectBlendParameter: Voice
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 4b8ef6979ef0ef347ac27e34ed9506f9, type: 2}
+    m_Motion: {fileID: 7400000, guid: e429cd01c99021a409102e6cc8d686f9, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1

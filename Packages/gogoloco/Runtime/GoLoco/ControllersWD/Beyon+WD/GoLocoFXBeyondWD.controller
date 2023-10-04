@@ -225,7 +225,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fly Radial 122
+  m_Name: Fly Radial 121 - 122
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -1051,7 +1051,9 @@ AnimatorStateMachine:
     m_Position: {x: -100, y: 60, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
-  m_EntryTransitions: []
+  m_EntryTransitions:
+  - {fileID: 5307024739424753077}
+  - {fileID: 8283100350099555847}
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 620, y: -30, z: 0}
@@ -1619,6 +1621,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 7
     m_ConditionEvent: VRCEmote
     m_EventTreshold: 122
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 121
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5864645823484491601}
   m_Solo: 0
@@ -1808,6 +1813,29 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: Go/Weight
+--- !u!1109 &5307024739424753077
+AnimatorTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 3
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 120
+  - m_ConditionMode: 7
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 121
+  - m_ConditionMode: 4
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 123
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -7534086862995375992}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 1
 --- !u!1101 &5323930461689516504
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2106,6 +2134,23 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
+--- !u!1109 &8283100350099555847
+AnimatorTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 6
+    m_ConditionEvent: VRCEmote
+    m_EventTreshold: 121
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8324966929764288949}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 1
 --- !u!1101 &8294593532508499584
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
